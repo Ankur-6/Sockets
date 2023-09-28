@@ -1,3 +1,5 @@
+#multithreading in server and client connection
+
 import socket
 import threading
 import sys

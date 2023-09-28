@@ -14,7 +14,7 @@ PORT = 55203
 #create socket
 try:
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.connect((HOST,PORT))
+    sock.connect((IP,PORT))
     print("Client is connected")
 except Exception as e:
     print("Error in socket creation",e)
